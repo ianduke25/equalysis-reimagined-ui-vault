@@ -11,7 +11,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/c3f6d3c6-3561-42f2-8551-b8b807c096de.png" 
               alt="Equalysis" 
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </div>
           

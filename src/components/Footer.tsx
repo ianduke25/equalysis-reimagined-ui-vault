@@ -1,5 +1,5 @@
 
-import { Scale, Mail, Phone, MapPin } from "lucide-react";
+import { Scale, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -39,11 +39,7 @@ const Footer = () => {
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-teal-400" />
-                <span>contact@equalysis.com</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="h-4 w-4 text-teal-400" />
-                <span>+1 (555) 123-4567</span>
+                <span>ian@equalysis.org</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-teal-400" />

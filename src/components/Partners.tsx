@@ -43,12 +43,12 @@ const Partners = () => {
             {[...partners, ...partners, ...partners].map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                className="flex-shrink-0 grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
               >
                 <img
                   src={partner.logo}
                   alt={partner.alt}
-                  className="h-16 w-auto object-contain filter brightness-0"
+                  className="h-16 w-auto object-contain"
                   style={{ maxWidth: '200px' }}
                 />
               </div>
