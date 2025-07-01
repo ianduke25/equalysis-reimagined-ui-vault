@@ -1,4 +1,3 @@
-
 import { Scale, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -6,6 +5,7 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-4 gap-8">
+          {/* Main Branding Section (Left) */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <img 
@@ -17,8 +17,12 @@ const Footer = () => {
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               A data science consulting firm dedicated to advancing equity and realizing justice.
             </p>
-          </div> 
-          
+          </div>
+
+          {/* Empty div to push Contact to far right */}
+          <div></div>
+
+          {/* Contact Section (Far Right) */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <div className="space-y-3 text-gray-300">
@@ -33,7 +37,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
           <p>&copy; 2024 Equalysis. All rights reserved. | Advancing equity through data science.</p>
         </div>
@@ -43,3 +47,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
