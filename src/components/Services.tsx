@@ -72,7 +72,7 @@ const Services = () => {
                 Case-Specific Data Preprocessing
               </h3>
               <p className="text-gray-600 leading-relaxed">
-                Real-world data is messy. We offer comprehensive data cleaning and preprocessing services to ensure our clients' data is ready for analysis. Our services cover a range of specialized tasks, including tabulation of unstructured data, conversion of textual location descriptions into geographic coordinates, and private transcription of sensitive audio.
+                Real-world data is messy. We offer comprehensive data cleaning and preprocessing services to ensure our clients' data is ready for analysis. Our services cover a range of specialized tasks, including tabulation of unstructured PDFs and private transcription of sensitive audio.
               </p>
             </CardContent>
           </Card>
