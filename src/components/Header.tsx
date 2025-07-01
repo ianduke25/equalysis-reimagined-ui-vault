@@ -27,7 +27,7 @@ const Header = () => {
               <img 
                 src="/lovable-uploads/c3f6d3c6-3561-42f2-8551-b8b807c096de.png" 
                 alt="Equalysis" 
-                className="h-24 w-auto cursor-pointer"
+                className="h-16 w-auto cursor-pointer"
               />
             </Link>
           </div>

@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-left space-y-8">
-            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight font-serif">
+            <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight font-sans">
               A data science consulting firm dedicated to{" "}
               <span className="text-teal-600">advancing equity</span> and{" "}
               <span className="text-teal-600">realizing justice</span>.
@@ -22,20 +22,17 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3">
-                Learn More
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
               <Link to="/testimonials">
-                <Button variant="outline" size="lg" className="border-gray-300 text-gray-700 hover:bg-gray-50 px-8 py-3 w-full">
+                <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 w-full">
                   View Our Work
+                  <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
             </div>
           </div>
           
           <div className="relative flex justify-center lg:justify-end">
-            <div className="w-80 h-80 overflow-hidden rounded-2xl shadow-2xl">
+            <div className="w-96 h-80 overflow-hidden rounded-2xl shadow-2xl">
               <img 
                 src="/lovable-uploads/37f21012-544f-412b-be74-5930075c95b3.png"
                 alt="Golden Gate Bridge"
