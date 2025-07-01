@@ -52,7 +52,7 @@ const Testimonials = () => {
               <span className="text-sm font-semibold tracking-wide uppercase">Client Testimonials</span>
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              What our clients say about our work
+              What our clients say about Equalysis
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               We're proud to support legal professionals and organizations in their fight for justice and equity.
