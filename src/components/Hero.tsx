@@ -1,3 +1,4 @@
+
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -31,7 +32,7 @@ const Hero = () => {
           </div>
 
           <div className="relative flex justify-center lg:justify-end">
-            <div className="w-96 h-80 overflow-hidden rounded-2xl shadow-2xl">
+            <div className="w-[450px] h-80 overflow-hidden rounded-lg shadow-2xl">
               <img
                 src="/lovable-uploads/37f21012-544f-412b-be74-5930075c95b3.png"
                 alt="Golden Gate Bridge"
@@ -46,5 +47,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
