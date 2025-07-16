@@ -21,33 +21,33 @@ const Header = () => {
   return (
     <header className="bg-white border-b border-gray-100 sticky top-0 z-50 backdrop-blur-sm bg-white/95">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-16 sm:h-20">
           <div className="flex items-center space-x-3">
             <Link to="/">
               <img 
                 src="/lovable-uploads/c3f6d3c6-3561-42f2-8551-b8b807c096de.png" 
                 alt="Equalysis" 
-                className="h-16 w-auto cursor-pointer"
+                className="h-12 sm:h-14 lg:h-16 w-auto cursor-pointer"
               />
             </Link>
           </div>
           
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <button 
               onClick={() => scrollToSection('about')}
-              className="text-gray-700 hover:text-teal-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-teal-600 transition-colors font-medium text-sm lg:text-base"
             >
               About
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-teal-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-teal-600 transition-colors font-medium text-sm lg:text-base"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('partners')}
-              className="text-gray-700 hover:text-teal-600 transition-colors font-medium"
+              className="text-gray-700 hover:text-teal-600 transition-colors font-medium text-sm lg:text-base"
             >
               Partners
             </button>
