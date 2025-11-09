@@ -95,8 +95,7 @@ export const Carousel = React.forwardRef<
       <div
         ref={ref}
         {...props}
-        // ⬇️ This is the important part: centered + max width control
-        className={cn("relative w-full max-w-2xl mx-auto", className)}
+        className={cn("max-w-lg", className)}
         role="region"
         aria-roledescription="carousel"
       >
