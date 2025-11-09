@@ -25,12 +25,6 @@ const partners = [
     logo: "/lovable-uploads/13b77ab8-a3e2-4608-a2ca-7e33b7ddd543.png",
     alt: "Contra Costa Public Defenders",
     className: "h-16 sm:h-20 md:h-24 lg:h-28"
-  },
-  {
-    name: "Center for Policing Equity",
-    logo: "/lovable-uploads/823b2fb9-2dc6-4984-b1f1-275f694048fa.png",
-    alt: "Center for Policing Equity",
-    className: "h-16 sm:h-20 md:h-24 lg:h-28"
   }
 ];
 

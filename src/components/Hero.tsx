@@ -1,8 +1,4 @@
 
-import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
-
 const Hero = () => {
   return (
     <section className="relative bg-gradient-to-br from-gray-50 to-white overflow-hidden">
@@ -20,15 +16,6 @@ const Hero = () => {
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
               We blend traditional investigative approaches with contemporary data science methods to support equity-driven litigation.
             </p>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link to="/testimonials" className="w-full sm:w-auto">
-                <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white px-6 sm:px-8 py-3 w-full text-sm sm:text-base">
-                  What Our Community Partners Say
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </Link>
-            </div>
           </div>
 
           <div className="relative flex justify-center lg:justify-end mt-8 lg:mt-0">
