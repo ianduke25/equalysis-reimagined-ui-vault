@@ -95,7 +95,7 @@ export const Carousel = React.forwardRef<
       <div
         ref={ref}
         {...props}
-        className={cn("max-w-lg", className)}
+        className={cn("max-w-md", className)}
         role="region"
         aria-roledescription="carousel"
       >
