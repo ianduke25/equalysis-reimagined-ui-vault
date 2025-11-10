@@ -12,7 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 
-const FORM_ENDPOINT = "https://formspree.io/f/xnnvwywg";
+const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE"; // Replace with your Web3Forms access key
 
 const ContactForm = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,13 +39,19 @@ const ContactForm = () => {
     setLoading(true);
 
     try {
-      const response = await fetch(FORM_ENDPOINT, {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          name: formData.name,
+          email: formData.email,
+          organization: formData.organization,
+          message: formData.message,
+        }),
       });
 
       if (response.ok) {
