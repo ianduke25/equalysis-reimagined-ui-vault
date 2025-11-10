@@ -12,7 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 
-const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE"; // Replace with your Web3Forms access key
+const WEB3FORMS_ACCESS_KEY = "eee5c954-58c1-455d-af68-716ad4d1aa0f";
 
 const ContactForm = () => {
   const [isOpen, setIsOpen] = useState(false);
