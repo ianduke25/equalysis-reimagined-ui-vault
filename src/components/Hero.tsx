@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="text-left space-y-6 lg:space-y-8">
             <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-900 leading-tight font-sans">
-              A data science consulting firm dedicated to{" "}
+              Data science consulting dedicated to{" "}
               <span className="text-teal-600">advancing equity</span> and{" "}
               <span className="text-teal-600">realizing justice</span>.
             </h1>
